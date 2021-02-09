@@ -3,26 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script Language="javascript" type="text/javascript" src="js/validaformulario.js"> </script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script language="javascript" type="text/javascript" src="js/validaformulario.js" ></script>
     <title>Formulario</title>
 </head>
 <body>
-    <form method="get" name ="formulario" onsubmit="return validar (this)">
-      <br>Nombre:
-      <br><input type="text" name="nombre" size="20">
-      <br>Edad:
-      <br><input type="text" name="edad" size="20">
-      <br>Correo electronico:
-      <br><input type="text" name="email" size="20">
-      <br>
-      <input type="submit" value="Enviar Datos De Registro" name="Enviar">
-      <br>
-      <input type="reset" value="Borrar Datos" name="Borrar">
-
-
+    <form method="get" name="formulario" onsubmit="return validar(this)" >
+        <br>Nombre:
+        <br><input type="text" name="nombre" size="20" >
+        <br>Edad:
+        <br><input type="text" name="edad" size="20" >
+        <br>Correo electronico:
+        <br><input type="text" name="email" size="20" >
+        <br>
+        <input type="submit" value="Enviar Datos de Registro" name="enviar"  >
+        <br>
+        <input type="reset" value="Borrar Datos" name="borrar"  >
     </form>
-
-
-
 </body>
 </html>
